@@ -1,13 +1,10 @@
 public class TwoOperandsRequest {
-    private int A;
-    private int B;
+   String expectedResultMetric;
+   ValueWithMetricRequest operandA;
+   ValueWithMetricRequest operandB;
 
-    public int getA() {
-        return A;
-    }
 
-    public int getB() {
-        return B;
-    }
+
 
 }
+

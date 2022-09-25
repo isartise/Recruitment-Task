@@ -1,8 +1,15 @@
 public class CalculatorEngine {
-    public int Add(int valA, int valB){
-        return valA+valB;
+
+    public double Add(double valA, double valB){
+        return valA + valB;
     }
-    public int Subtract(int valA, int valB){
-        return valA -valB;
+    public double Subtract(double valA, double valB){
+        return valA - valB;
+    }
+    public double Multiply(double valA, double valB){
+        return valA * valB;
+    }
+    public double Divide (double valA, double valB){
+        return valA / valB;
     }
 }
